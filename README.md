@@ -54,7 +54,7 @@ For example, it allows us to replace the EventDataSource with a mock version dur
         eventRepository = null
         eventViewModelFactory = null
     }
-}
+
 
 ### Libraries
 
@@ -121,7 +121,7 @@ To run the tests, navigate to the EventViewModelTest class and run it.
         assertNull(viewModel.onMessageError.value)
     }
 
-}
+
 
 
 ##Conclusion
